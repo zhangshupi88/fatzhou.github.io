@@ -21,7 +21,7 @@ a {
 }
 
 .logo {
-	background: url(../images/all-icon.png) -158px -5px no-repeat;
+	background: url(/images/all-icon.png) -158px -5px no-repeat;
 	width: 240px;
 	height: 60px;
 	float: left;
@@ -47,7 +47,7 @@ a {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: url(../images/bg.jpg) 0 0 repeat;
+	background: url(/images/bg.png) 0 0 repeat;
 }
 
 .header-wrap {
@@ -64,7 +64,7 @@ a {
 
 
 .person-image {
-	background: url(../images/all-icon.png) -42px -1px no-repeat;
+	background: url(/images/all-icon.png) -42px -1px no-repeat;
 	display: inline-block;
 	width: 20px;
 	height: 20px;
@@ -72,7 +72,7 @@ a {
 }
 
 .triangle {
-	background: url(../images/all-icon.png) -131px -10px no-repeat;
+	background: url(/images/all-icon.png) -131px -10px no-repeat;
 	display: inline-block;
 	width: 9px;
 	height: 7px;
@@ -138,7 +138,7 @@ a {
 }
 
 .tip-icon {
-	background: url(../images/all-icon.png) -5px -26px no-repeat;
+	background: url(/images/all-icon.png) -5px -26px no-repeat;
 	display: inline-block;
 	width: 20px;
 	height: 22px;
@@ -148,7 +148,7 @@ a {
 }
 
 .friend-icon {
-	background: url(../images/all-icon.png) -39px -29px no-repeat;
+	background: url(/images/all-icon.png) -39px -29px no-repeat;
 	display: inline-block;
 	width: 22px;
 	height: 18px;
@@ -158,7 +158,7 @@ a {
 }
 
 .share-icon {
-	background: url(../images/all-icon.png) -77px -28px no-repeat;
+	background: url(/images/all-icon.png) -77px -28px no-repeat;
 	display: inline-block;
 	width: 19px;
 	height: 18px;
@@ -167,7 +167,7 @@ a {
 }
 
 .slide-icon {
-	background: url(../images/all-icon.png) -112px -29px no-repeat;
+	background: url(/images/all-icon.png) -112px -29px no-repeat;
 	display: inline-block;
 	width: 18px;
 	height: 20px;
@@ -197,7 +197,7 @@ a {
 }
 
 .info-icon {
-	background: url(../images/all-icon.png) -101px -57px no-repeat;
+	background: url(/images/all-icon.png) -101px -57px no-repeat;
 	display: inline-block;
 	width: 18px;
 	height: 15px;
@@ -220,7 +220,7 @@ a {
 }
 
 .clock-icon {
-	background: url(../images/all-icon.png) -52px -56px no-repeat;
+	background: url(/images/all-icon.png) -52px -56px no-repeat;
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -248,7 +248,7 @@ a {
 }
 
 .prog-icon {
-	background: url(../images/all-icon.png) -75px -56px no-repeat;
+	background: url(/images/all-icon.png) -75px -56px no-repeat;
 	display: inline-block;
 	width: 18px;
 	height: 17px;
@@ -283,7 +283,7 @@ a {
 }
 
 .resume-icon {
-	background: url(../images/all-icon.png) 0 0 no-repeat;
+	background: url(/images/all-icon.png) 0 0 no-repeat;
 	display: inline-block;
 	width: 16px;
 	height: 20px;
@@ -325,7 +325,7 @@ a {
 
 	.download-resource {
 		display: inline-block;
-		background: url(../images/all-icon.png) -66px -3px no-repeat;
+		background: url(/images/all-icon.png) -66px -3px no-repeat;
 		width: 16px;
 		height: 16px;
 		margin: 6px 9px;
@@ -334,7 +334,7 @@ a {
 
 	.download-client {
 		display: inline-block;
-		background: url(../images/all-icon.png) -85px -2px no-repeat;
+		background: url(/images/all-icon.png) -85px -2px no-repeat;
 		width: 18px;
 		height: 19px;
 		margin: 4px 9px;
@@ -365,7 +365,7 @@ a {
 
 	.search-icon {
 		display: inline-block;
-		background: url(../images/all-icon.png) -5px -54px no-repeat;
+		background: url(/images/all-icon.png) -5px -54px no-repeat;
 		width: 24px;
 		height: 19px;
 		position: absolute;
@@ -382,7 +382,7 @@ a {
 
 	.letter .letter-icon {
 		float: left;
-		background: url(../images/all-icon.png) -107px -4px no-repeat;
+		background: url(/images/all-icon.png) -107px -4px no-repeat;
 		width: 19px;
 		height: 14px;
 		margin-top: 6px;
@@ -398,7 +398,7 @@ a {
 		line-height: 1;
 		text-align: center;
 		margin-left: -6px;
-		background: url(../images/all-icon.png) -34px -57px no-repeat;
+		background: url(/images/all-icon.png) -34px -57px no-repeat;
 	}
 
 	.login-info {
@@ -428,7 +428,7 @@ a {
 	}
 
 	.menu-logo {
-		background: url(../images/all-icon.png) -17px 0 no-repeat;
+		background: url(/images/all-icon.png) -17px 0 no-repeat;
 		display: inline-block;
 		width: 22px;
 		height: 21px;
