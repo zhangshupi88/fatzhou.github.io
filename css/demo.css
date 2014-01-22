@@ -41,6 +41,10 @@ a {
 	zoom: 1;
 }
 
+.progress {
+	width: 303px;
+}
+
 .header {
 	position: fixed;
 	_position: absolute;  
