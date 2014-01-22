@@ -1,0 +1,202 @@
+.fxk {
+	display: none;
+}
+
+body {
+	background-repeat: no-repeat;
+}
+
+.clear:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+.clear {
+	zoom: 1;
+}
+
+.top, #top{
+	margin: 10px auto 0;
+	width: 960px;
+	position: relative;
+}
+
+.zylb, .zylbs {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+ul, li, p{
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	list-style: none;
+}
+
+#top_li {
+	position: absolute;
+	right: 0;
+	float: none;
+}
+
+#top_li ul {
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
+
+.search {
+	position: relative;
+	width: 230px;
+}
+
+.search-btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#top_li li {
+	display: inline-block;
+	list-style: none;
+}
+
+#top input {
+	display: block;
+	width: 100%;
+}
+
+#tpw {
+	height: 80px;
+}
+
+.nick {
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 27px;
+	margin-left: 2px;
+}
+
+.ps {
+	padding-right: 18px;
+}
+
+.ktfc {
+	height: 162px;
+}
+
+.ktbi {
+	padding-top: 22px;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.ktim {
+	margin-right: 15px;
+}
+
+.tl2 {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.ga {
+	width: 423px;
+}
+
+.ga span:first-child {
+	color: #666;
+}
+
+.ga .gt {
+	width: 72px;
+}
+
+.newjd {
+	width: 307px;
+}
+
+.newjd .jdl {
+	width: 192px;
+	background-color: #646464;
+	margin-left: 8px;
+}
+
+#ele7 {
+	color: #666;
+	width: 232px;
+}
+
+.newjd span:first-child {
+	color: #666;
+}
+
+.newjd .percent {
+	margin-left: 10px;
+	color: #666;
+}
+
+.gam {
+	padding: 4px 10px;
+	margin-left: 0;
+	margin-top: 8px;
+}
+
+.ga .gt {
+	width: 40px;
+}
+
+.rpf {
+	background: #fff;
+	width: 203px;
+}
+
+.rpf span {
+	display: inline-block;
+	margin: 0;
+	font-size: 14px;
+}
+
+.rpf span:first-child {
+	background: url(../images/all-icon.png) 0 0 no-repeat;
+	width: 16px;
+	height: 20px;
+	vertical-align: top;
+	margin-top: 7px;
+	margin-left: 12px;
+	margin-right: 8px;
+}
+
+.rpf span:nth-of-type(2) {
+	color: #333;
+	margin-right: 12px;
+}
+
+.rpf span:nth-of-type(3) {
+	margin-right: 8px;
+}
+
+.rpf span:nth-of-type(4) {
+	margin-right: 12px;
+	color: #333;
+}
+
+.rpf span:nth-of-type(5) {
+	color: #fff;
+	background-color: #a40035;
+	padding: 4px 8px;
+	line-height: 14px;
+	margin-top: 6px;
+}
+
+.logo {
+	display: block;
+	background: url(../images/all-icon.png) -158px -5px no-repeat;
+	width: 240px;
+	height: 60px;
+}
