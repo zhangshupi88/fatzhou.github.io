@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width;initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 	<title>用css实现简单图案</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/css_demo.css">
@@ -51,5 +51,17 @@
 		</dl>
 		<p class="clearfix">原文出处：http://www.cnblogs.com/top5/archive/2012/02/14/2351959.html</p>
 	</div>
+
+
+	<script type="text/javascript">
+		window.onload = function() {
+			var dds = document.getElementsByTagName('dd');
+			for(var i = 0, len = dds.length; i < len; i++) {
+				var ddi = dds[i];
+				var total = 200;
+				ddi.style.marginTop = (total - ddi.offsetHeight)/2+"px";
+			}
+		}
+	</script>
 </body>
 </html>
