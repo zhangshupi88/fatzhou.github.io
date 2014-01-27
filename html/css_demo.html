@@ -12,42 +12,42 @@
 		<h1 class="main-h1">用css实现简单图案</h1>
 		<ul>
 			<li class="clearfix">方块系列</li>
-			<li class="first"><dd class="icon square"></dd></li>
-			<li><dd class="icon rectangle"></dd></li>
+			<li class="first"><div class="icon square"></div></li>
+			<li><div class="icon rectangle"></div></li>
 
 			<li class="clearfix">圆系列</li>
-			<li><dd class="icon circle first"></dd></li>
-			<li><dd class="icon oval"></dd></li>
+			<li><div class="icon circle first"></div></li>
+			<li><div class="icon oval"></div></li>
 
 			<li class="clearfix">三角形系列</li>
-			<li class="first"><dd class="icon triangle-top"></dd></li>
-			<li><dd class="icon triangle-bottom"></dd></li>
-			<li><dd class="icon triangle-left"></dd></li>
-			<li><dd class="icon triangle-right"></dd></li>
-			<li><dd class="icon triangle-topleft"></dd></li>
-			<li><dd class="icon triangle-bottomleft"></dd></li>
-			<li><dd class="icon triangle-topright"></dd></li>
-			<li><dd class="icon triangle-bottomright"></dd></li>		
+			<li class="first"><div class="icon triangle-top"></div></li>
+			<li><div class="icon triangle-bottom"></div></li>
+			<li><div class="icon triangle-left"></div></li>
+			<li><div class="icon triangle-right"></div></li>
+			<li><div class="icon triangle-topleft"></div></li>
+			<li><div class="icon triangle-bottomleft"></div></li>
+			<li><div class="icon triangle-topright"></div></li>
+			<li><div class="icon triangle-bottomright"></div></li>		
 
 			<li class="clearfix">多边形系列</li>
-			<li class="first"><dd class="icon parallelogram"></dd></li>
-			<li><dd class="icon trapezoid"></dd></li>
-			<li><dd class="icon star-six"></dd></li>
-			<li><dd class="icon star-five"></dd></li>
-			<li><dd class="icon pentagon"></dd></li>
-			<li><dd class="icon hexagon"></dd></li>
-			<li><dd class="icon octagon"></dd></li>
+			<li class="first"><div class="icon parallelogram"></div></li>
+			<li><div class="icon trapezoid"></div></li>
+			<li><div class="icon star-six"></div></li>
+			<li><div class="icon star-five"></div></li>
+			<li><div class="icon pentagon"></div></li>
+			<li><div class="icon hexagon"></div></li>
+			<li><div class="icon octagon"></div></li>
 
 			<li class="clearfix">其他特殊形状</li>
-			<li class="first"><dd class="icon heart"></dd></li>
-			<li><dd class="icon infinity"></dd></li>
-			<li><dd class="icon egg"></dd></li>
-			<li><dd class="icon pacman"></dd></li>
-			<li><dd class="icon talkbubble"></dd></li>
-			<li><dd class="icon burst-12"></dd></li>
-			<li><dd class="icon burst-8"></dd></li>
-			<li><dd class="icon cut-diamond"></dd></li>
-			<li><dd class="icon yin-yang"></dd></li>
+			<li class="first"><div class="icon heart"></div></li>
+			<li><div class="icon infinity"></div></li>
+			<li><div class="icon egg"></div></li>
+			<li><div class="icon pacman"></div></li>
+			<li><div class="icon talkbubble"></div></li>
+			<li><div class="icon burst-12"></div></li>
+			<li><div class="icon burst-8"></div></li>
+			<li><div class="icon cut-diamond"></div></li>
+			<li><div class="icon yin-yang"></div></li>
 		</dl>
 		<p class="clearfix">原文出处：http://www.cnblogs.com/top5/archive/2012/02/14/2351959.html</p>
 	</div>
@@ -55,11 +55,11 @@
 
 	<script type="text/javascript">
 		window.onload = function() {
-			var dds = document.getElementsByTagName('dd');
-			for(var i = 0, len = dds.length; i < len; i++) {
-				var ddi = dds[i];
-				var total = ddi.parentNode.clientHeight;
-				ddi.style.marginTop = (total - ddi.offsetHeight)/2+"px";
+			var divs = document.getElementsByTagName('div');
+			for(var i = 0, len = divs.length; i < len; i++) {
+				var divi = divs[i];
+				var total = divi.parentNode.clientHeight;
+				divi.style.marginTop = (total - divi.offsetHeight)/2+"px";
 			}
 		}
 	</script>
