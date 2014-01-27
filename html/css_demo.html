@@ -58,7 +58,7 @@
 			var dds = document.getElementsByTagName('dd');
 			for(var i = 0, len = dds.length; i < len; i++) {
 				var ddi = dds[i];
-				var total = 200;
+				var total = ddi.parentNode.clientHeight;
 				ddi.style.marginTop = (total - ddi.offsetHeight)/2+"px";
 			}
 		}
