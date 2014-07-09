@@ -178,6 +178,9 @@ body{
 	width: 160px;
 	background: #4cbec1;
 }
+.intro-cnt .btn-reply{
+	opacity: .5;
+}
 /**分享指引页**/
 .share-cnt{
 	padding-top: 24%;
@@ -334,7 +337,7 @@ body{
 	border-radius: 2px;
 	cursor: pointer;
 }
-/**好友查看发布会现场**/
+/**游客查看发布会现场**/
 .g-detail-cnt{
 	margin:26px 20px 0;
 	padding-bottom: 30px;
@@ -484,6 +487,9 @@ body{
 	height: 39px;
 	border-top: 1px solid #dfdfdf;
 	border-right: 1px solid #dfdfdf;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
 }
 .temp .ico-yes{
 	display: inline-block;
@@ -613,6 +619,13 @@ body{
 	-o-animation: 'animate' 1.5s ease-in-out;
 	-ms-animation: 'animate' 1.5s ease-in-out;
 	animation: 'animate' 1.5s ease-in-out;
+}
+.asker-detail-cnt .btn-bottom{
+	margin-top: 40px;
+}
+.asker-detail-cnt .btn-hold{
+	width: 130px;
+	margin-top: 0;
 }
 @-webkit-keyframes 'animate' {
   0% {
