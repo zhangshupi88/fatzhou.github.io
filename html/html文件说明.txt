@@ -1,0 +1,21 @@
+1.c_intro.html           舌战群P介绍页
+  
+2.c_share.html           分享到朋友圈（才哥做点击“分享”和“关注”时的提示）
+
+3.c_detail.html          发起人进入发布会现场
+  无提问时，显示no-question
+  有提示时，显示question-list
+  对于每个问题，已回答则显示answer，否则显示btn-reply
+
+4.c_detail_guest.html    游客进入发布会现场
+  无提问时，显示no-question（文案的TA根据发起人性别显示他或她）
+  有提示时，显示question-list
+  对于每个问题，已回答则显示answer，否则不显示
+  
+5.c_ask.html             提问页面
+
+
+6.c_detail_asker.html        提问人进入发布会现场
+  已赞过，<div class="eva fl like">    添加class：e-like
+  已踩过，<div class="eva fr unlike">  添加class：e-unlike
+ 
