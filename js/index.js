@@ -108,14 +108,46 @@
 		var k = random(4,8);
 		var mask = $('.mask');
 		var times = 10;
-		for (var i = 0; i < k; i++) {
+		var data = [
+			{
+				width: 35,
+				top: 0,
+				delay : 0
+			},
+			{
+				width: 60,
+				top: 200,
+				delay : 100
+			},	
+			{
+				width: 50,
+				top: 360,
+				delay : 150
+			},	
+			{
+				width: 80,
+				top: 30,
+				delay : 300
+			},	
+			{
+				width: 50,
+				top: 130,
+				delay : 400
+			},	
+			{
+				width: 60,
+				top: 330,
+				delay : 420
+			}														
+		]
+		for (var i = 0, len = data.length; i < len; i++) {
 			//添加圆圈到页面
 			var circle = $('<div class="come-circle"></div>').appendTo(mask);
-			var width = random(30,90);
-			var top = random(0,screenSize.height/times)*times;
+			var width = data[i]['width'];//random(30,90);
+			var top =  data[i]['top'];//random(0,screenSize.height/times)*times;
+			var delay = data[i]['delay'];
 
-			!function(width,circle,top) {
-				console.log(top)
+			!function(width,circle,top,delay) {
 				if(i%2==0) {
 					circle.css({
 						'width':width+'px',
@@ -140,15 +172,18 @@
 					'margin-bottom':'-'+(120+width/2)+'px',
 					'left': '50%',
 					'top' : n + 'px',
-				},
-				{
-					'duration': random(600,1400),
-					'complete': function() {
+				}, i*200,'ease-in',function() {
 						circle.remove();
-					}
-				},
-				random(100,300),'ease-in');				
-			}(width,circle,top);
+					},delay);
+				// {
+				// 	'duration': random(600,1400),
+				// 	'easing': ''
+				// 	'complete': function() {
+				// 		circle.remove();
+				// 	}
+				// },
+				// delay,'ease-in');				
+			}(width,circle,top,delay);
 		}
 	};	
 
