@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<title>js和Unicode互转</title>
+	<link href="../css/demo.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="../js/zepto.min.js"></script>
+</head>
+<body>
+	<select>
+		<option value="1">中文转unicode</option>
+		<option value="2">unicode转中文</option>
+	</select>
+	<p>请输入文字：</p>
+	<textarea id="input" cols="10" rows="5"></textarea>
+	<p>输出为：</p>
+	<textarea id="output" cols="10" rows="5"></textarea>
+	&#41;
+	<script>
+		String.prototype.toUnicode = function(){
+		    var result = "";
+		    for(var i = 0; i < this.length; i++){
+		        result += "\\u" + ("000" + this[i].charCodeAt(0).toString(16)).substr(-4);
+		    }
+		    return result;
+		};
+	</script></body>

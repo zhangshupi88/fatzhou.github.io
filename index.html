@@ -15,8 +15,35 @@
 			</li>
 			<li class="resource-li">
 				<a href="html/css_demo.html">用css实现三角形，五角星等图案</a>
-			</li>			
+			</li>
+			<li class="resource-li">
+				<a href="html/js_unicode_demo.html">js和unicode互转</a>
+			</li>						
 		</ul>
+		<button value="ddddd" onclick="console.log('ss')">ss</button>
 	</div>
+	<script>
+		console.log('start')
+		var s = 0;
+
+			for(var i = 0; i < 10000; i++) {
+				for(var j = 0; j < 100000; j++) {
+					if(j%2==0) {
+						s++;
+					} else {
+						s--;
+					}
+				}
+			}			
+
+
+		console.log('finished')
+		setInterval(function() {
+			console.log('tt')
+		},50);
+		setTimeout(function(){
+			console.log('jj')
+		},40);
+	</script>
 </body>
 </html>
