@@ -22,12 +22,12 @@
 
 		<p>dfsdfdsfsdfsdfsdfsdffdsfsdfsdfsdfsd</p>
 		<p>dfsdfdsfsdfsdfsdfsdffdsfsdfsdfsdfsd</p>
-		
+
 		<a href="javascript:;" id="test">点我打开百度</a>
 	</div>
-	<iframe src="http://at.qq.com/app/qxm/MTCompare.shtml" style="display:none;" ></iframe>
+	<iframe id="frame" src="http://at.qq.com/app/qxm/MTCompare.shtml" style="display:none;" ></iframe>
 	<script type="text/javascript">
-		var iframe = window.frames[0];
+		var iframe = document.getElementById('frame');
 		var test = document.getElementById('test');
 
 		test.onclick = function() {
